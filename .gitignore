@@ -1,1 +1,5 @@
+*.back
 .DS_Store
+node_modules/
+tmp/
+index.html

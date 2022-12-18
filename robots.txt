@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /cdn-cgi
 Allow: /
 
-Host: olenata.com
+Sitemap: https://olenata.com/sitemap.xml
+Host: https://olenata.com

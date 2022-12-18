@@ -1,9 +1,66 @@
 {
-  "name": "Olenata Fashion Jewelry",
+  "id": "com.olenata",
   "short_name": "Olenata",
-  "description": "Affordable trendy jewelry and fashion accessories. Thousands of fashion jewelry sets like earrings, rings, necklaces, and bracelets.",
+  "name": "Olenata - Reliable and Comprehensive Fashion News Sources",
+  "description": "Get the latest news online at Olenata, the top online news resource for the most reliable Fashion news sources. Stay informed about the world around you!",
+  "icons": [
+    {
+      "src": "/assets/icons/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/logo-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "https://olenata.com/?utm_source=web_app_manifest&utm_medium=homescreen",
+  "related_applications": [
+    { "platform": "webapp", "url": "https://olenata.com/manifest.json" }
+  ],
+  "future_related_applications": [
+    {
+      "platform": "chromeos_play",
+      "id": "com.olenata.android",
+      "url": "https://play.google.com/store/apps/details?id=com.olenata.android"
+    },
+    {
+      "platform": "play",
+      "id": "com.olenata.android",
+      "url": "https://play.google.com/store/apps/details?id=com.olenata.android"
+    }
+  ],
+  "prefer_related_applications": false,
+  "display_override": ["fullscreen", "minimal-ui"],
+  "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#333",
-  "background_color": "#efefef",
-  "lang": "en"
+  "lang": "en",
+  "dir": "auto",
+  "scope": "/",
+  "categories": ["news", "magazines"],
+  "iarc_rating_id": "997d79b0-0e40-44ec-8256-6040b2082faf",
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Terms of Service",
+      "url": "/terms/?utm_source=web_app_manifest&utm_medium=shortcut",
+      "description": "Olenata Terms of Service"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy/?utm_source=web_app_manifest&utm_medium=shortcut",
+      "description": "Olenata Privacy Policy"
+    }
+  ]
 }

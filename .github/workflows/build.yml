@@ -1,0 +1,35 @@
+# This workflow will do a clean install of node dependencies, build the source
+# code and run tests across different versions of node and then will automatically 
+# deploy this project to GitHub Pages. 
+#
+name: build
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # Runs every 1 hour
+    - cron: '0 */1 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+
+    - name: Install and Build 🔧 
+      run: |
+        npm install
+        npm run build
+        rm -rf package.json package-lock.json .gitignore android node_modules templates
+      # mkdir -p "archive/$(TZ=America/New_York date '+%Y/%m/%d')"
+      # cp index.html "archive/$(TZ=America/New_York date '+%Y/%m/%d')"
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: .
+        # clean: false
+

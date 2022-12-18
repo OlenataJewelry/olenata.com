@@ -1,0 +1,68 @@
+[
+  {
+    "page": "fashion/index.html",
+    "title": "Get the Latest Fashion News From Most Reliable Sources",
+    "description": "Stay up-to-date on the latest fashion news in the United States directly from the major news sources.",
+    "sections": ["Trending Fashion"],
+    "feeds": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml",
+      "https://rss.nytimes.com/services/xml/rss/nyt/tmagazine.xml",
+      "https://nypost.com/fashion-and-beauty/feed/"
+    ]
+  },
+
+  {
+    "page": "health/index.html",
+    "title": "Get the Health News From Around the World",
+    "description": "Stay informed on what is happening all over the world with handpicked headlines.",
+    "sections": ["Health News"],
+    "feeds": [
+      "http://rss.cnn.com/rss/cnn_health.rss",
+      "https://rss.nytimes.com/services/xml/rss/nyt/Well.xml",
+      "https://www.cbsnews.com/latest/rss/health",
+      "https://moxie.foxnews.com/google-publisher/health.xml",
+      "https://www.washingtontimes.com/rss/headlines/culture/health/",
+      "https://nypost.com/health/feed/"
+    ]
+  },
+
+  {
+    "page": "arts/index.html",
+    "title": "The Latest Arts News and Headlines",
+    "description": "Get up-to-date all the arts industry news from reliable sources.",
+    "sections": ["Arts News"],
+    "feeds": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml",
+      "https://rss.nytimes.com/services/xml/rss/nyt/ArtandDesign.xml"
+    ]
+  },
+
+  {
+    "page": "entertainment/index.html",
+    "title": "Stay Up to Date on Your Favorite Teams and Players",
+    "description": "Access the latest news of the sports world with highlights, photos, opinions and more in one place from authentic sports sources.",
+    "sections": ["Entertainment News"],
+    "feeds": [
+      "https://www.cbsnews.com/latest/rss/entertainment",
+      "https://www.washingtontimes.com/rss/headlines/culture/entertainment",
+      "https://nypost.com/entertainment/feed/",
+      "https://www.chicagotribune.com/arcio/rss/category/entertainment/",
+      "https://www.mercurynews.com/things-to-do/entertainment/feed/"
+    ]
+  },
+
+  {
+    "page": "travel/index.html",
+    "title": "Get the Latest Travel News and Headlines",
+    "description": "Find the latest travel news, expert analysis, opinions, insights, and more. Stay informed in one place.",
+    "sections": ["Travel News"],
+    "feeds": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml",
+      "https://moxie.foxnews.com/google-publisher/travel.xml",
+      "https://www.washingtontimes.com/rss/headlines/culture/travel/",
+      "http://rss.cnn.com/rss/cnn_travel.rss",
+      "https://nypost.com/travel/feed/",
+      "https://www.mercurynews.com/things-to-do/travel/feed/"
+    ]
+  }
+]
