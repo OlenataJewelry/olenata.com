@@ -39,8 +39,8 @@
 
   {
     "page": "entertainment/index.html",
-    "title": "Stay Up to Date on Your Favorite Teams and Players",
-    "description": "Access the latest news of the sports world with highlights, photos, opinions and more in one place from authentic sports sources.",
+    "title": "Stay Up to Date on Your Favorite Entertainment",
+    "description": "Access the latest news of the entertainment world with highlights, photos, opinions and more in one place from authentic entertainment sources.",
     "sections": ["Entertainment News"],
     "feeds": [
       "https://www.cbsnews.com/latest/rss/entertainment",
