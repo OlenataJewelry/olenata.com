@@ -7,9 +7,9 @@ name: build
 on:
   push:
     branches: [ main ]
-  schedule:
+  # schedule:
     # Runs every 1 hour
-    - cron: '0 */1 * * *'
+    # - cron: '0 */1 * * *'
 
 jobs:
   build:
